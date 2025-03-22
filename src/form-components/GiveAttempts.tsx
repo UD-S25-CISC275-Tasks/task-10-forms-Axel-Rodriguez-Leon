@@ -22,7 +22,6 @@ export function GiveAttempts(): React.JSX.Element {
                 />
             </Form.Group>
 
-            {/* Use Button */}
             <button
                 onClick={() => {
                     setAttempts(attempts - 1);
@@ -32,7 +31,6 @@ export function GiveAttempts(): React.JSX.Element {
                 Use
             </button>
 
-            {/* Gain Button */}
             <button
                 onClick={() => {
                     if (numRequested > 0) {
