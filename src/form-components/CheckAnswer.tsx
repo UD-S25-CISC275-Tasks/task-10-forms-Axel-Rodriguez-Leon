@@ -26,26 +26,3 @@ export function CheckAnswer({
         </div>
     );
 }
-/*export function App(): JSX.Element {
-  // This is the State (Model)
-  const [name, setName] = useState<string>('Alien');
-
-  // This is the Control
-  function updateName(event: React.ChangeEvent<HTMLInputElement>) {
-    setName(event.target.value)
-  }
-
-  // This is the View
-  return <div>
-    <Form.Group controlId="formMovieName">
-      <Form.Label>Name:</Form.Label>
-      <Form.Control
-        value={name}
-        onChange={updateName} />
-    </Form.Group>
-    <div>
-      The movie is "{name}".
-    </div>
-  </div>;
-}
-*/
